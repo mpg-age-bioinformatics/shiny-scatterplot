@@ -31,7 +31,7 @@ shinyUI( fluidPage(
           checkboxInput("header", "Header", TRUE),
           uiOutput("x"),
           uiOutput("y"),
-          helpText(a(href = "https://raw.githubusercontent.com/mpg-age-bioinformatics/shiny-scatterplot/master/test_dataframe.csv", "Example input")),
+          helpText(a(href = "https://datashare.mpcdf.mpg.de/s/NGGKr08ueY2NEpa/download", "Example input")),
           hr(),
           textInput("outfile", "Output file name", value="Scatterplot")#,
           #submitButton('generate plot')
